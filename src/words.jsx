@@ -11,10 +11,12 @@ class LikeButton extends React.Component {
         this.tick = this.tick.bind(this);
         this.getData = this.getData.bind(this);
         this.beginDisplay = this.beginDisplay.bind(this);
+
+
+
+    }
+    componentDidMount() {
         this.getData();
-
-
-
     }
     beginDisplay() {
         this.intervalId = setInterval(this.tick, 1000);
