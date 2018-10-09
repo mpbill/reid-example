@@ -1,0 +1,17 @@
+span.container :last-child {
+    opacity: 0;
+}
+
+
+span.container span {
+    opacity: 1;
+    transition: opacity 1s ease-in;
+}
+
+#words_container {
+    padding: 10em 4em 0 10em;
+}
+
+span {
+    font-size: 32px;
+}
